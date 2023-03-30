@@ -1,0 +1,55 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-list-container {
+  .active {
+    color: white;
+
+    li {
+      background-color: #37567a;
+    }
+
+    .drop-icon {
+      color: rgb(209, 98, 98);
+    }
+
+    .icon {
+      color: rgb(209, 98, 98);
+    }
+  }
+}
+
+.sidebar-list-container {
+  li {
+    padding: 0 !important;
+
+    &:hover {
+      background-color: #37567a;
+    }
+  }
+}
+
+.nested-list {
+  color: white !important;
+
+  &:hover {
+    background-color: #37567a !important;
+  }
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+.drop-icon {
+  margin-left: 10px;
+  color: white;
+}
+
+.css-1f2xuhi-MuiDrawer-docked .MuiDrawer-paper {
+  background-color: #2a334e;
+}
